@@ -4,7 +4,5 @@ __pycache__/
 .pytest_cache/
 .ruff_cache/
 .mypy_cache/
-reports/gameday/
-reports/*.json
-reports/*.png
-reports/cache/
+# reports/ is committed on purpose: README §8 asks for scoreboard.json + figures,
+# and the postmortem cites reports/gameday/*_timeseries.csv.
